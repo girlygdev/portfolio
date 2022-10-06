@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/girlygdev/portfolio/static/css/main.b32099e1.css",
+    "main.js": "/girlygdev/portfolio/static/js/main.ffe6d9a0.js",
+    "static/media/profile.jpg": "/girlygdev/portfolio/static/media/profile.e34a8efebfd06d7020a0.jpg",
+    "static/media/g_logo.png": "/girlygdev/portfolio/static/media/g_logo.c018f391b5eaec392ee5.png",
+    "index.html": "/girlygdev/portfolio/index.html",
+    "main.b32099e1.css.map": "/girlygdev/portfolio/static/css/main.b32099e1.css.map",
+    "main.ffe6d9a0.js.map": "/girlygdev/portfolio/static/js/main.ffe6d9a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b32099e1.css",
+    "static/js/main.ffe6d9a0.js"
+  ]
+}
