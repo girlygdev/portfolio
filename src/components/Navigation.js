@@ -24,7 +24,7 @@ const Navigation = ({ toggleTheme }) => {
           <a href="#contact" className={`menu--item--link ${active === 'contact' && 'active' }`} onClick={e => setActive('contact')} >Contact</a>
         </li>
         <li className="menu--item">
-          <button className="menu--item--theme" onClick={}>
+          <button className="menu--item--theme" onClick={toggleTheme}>
             <i className="fa-solid fa-circle-half-stroke"></i>
           </button>
         </li>
