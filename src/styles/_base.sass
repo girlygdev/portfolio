@@ -1,0 +1,43 @@
+:root
+  --font-primary: 'Kanit', sans-serif
+  --font-secondary: 'Fira Mono', monospace
+  --shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%)
+
+:root.dark
+  --white: #fff
+  --dark-bg: #1c1b18
+  --accent: #f37d05
+  --accent-dark: #a3580a
+
+:root.light
+  --white: #1c1b18
+  --dark-bg: #f0e3ca
+  --accent: #f37d05
+  --accent-dark: #a3580a
+  
+
+*,
+*::before,
+*::after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+html
+  scroll-behavior: smooth
+
+body
+  min-width: 350px
+  background: var(--dark-bg)
+  font-family: var(--font-secondary)
+  font-size: 16px
+  color: var(--white)
+  transition: background .2s linear, color .2s linear
+
+a
+  color: inherit
+  text-decoration: none
+
+p
+  line-height: 1.5
